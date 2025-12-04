@@ -14,4 +14,4 @@ df = df.loc[:,
     ]
 ]
 
-df.dropna(subset=['CIDADES'])
+df.dropna(subset=['CIDADES'], inplace=true)
