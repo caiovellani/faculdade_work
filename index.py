@@ -15,3 +15,5 @@ df = df.loc[:,
 ]
 
 df.dropna(subset=['CIDADES'], inplace=true)
+
+df.to_csv('consolidado_limpo.csv', index=False, sep=';')
